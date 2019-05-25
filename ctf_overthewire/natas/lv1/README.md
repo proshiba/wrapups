@@ -1,7 +1,7 @@
 # natas level1
 natas is CTF with web application.
 
-## using credential is below.(it is default)
+## using credential is below.
 - User:natas1
 - Pass:gtVrDuiDfck831PqWsLEZy5gyDz1clto
 
