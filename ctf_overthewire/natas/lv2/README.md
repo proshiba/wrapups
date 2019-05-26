@@ -1,4 +1,4 @@
-# natas level1
+# natas level2
 natas is CTF with web application.
 
 ## using credential is below.
