@@ -1,4 +1,4 @@
-# natas level10
+# natas level11
 natas is CTF with web application.
 password will be written `/etc/natas_webpass/natas11`.
 
@@ -9,6 +9,7 @@ password will be written `/etc/natas_webpass/natas11`.
 ## using tools.
 - shell(curl, base64, etc)
 - lynx
+- ruby
 check web site by lynx.
 `lynx http://natas11:U82q5TCMMQ9xuFoI3dYX61s7OZD9JKoK@natas11.natas.labs.overthewire.org`
 
