@@ -29,19 +29,7 @@ def xor_enc( bin_ary, key )
   for i in 0..bin_ary.size-1
     xor_bit = key_ary[(i%key.size)].to_i
     v = bin_ary[i].to_i
-    if v == 1
-      if xor_bit == 1
-        result << 0
-      else
-        result << 1
-      end
-    else
-      if xor_bit == 1
-        result << 1
-      else
-        result << 0
-      end
-    end
+    result << ( xor_bit ^ v )
   end
   return result
 end
@@ -54,19 +42,7 @@ def get_xor_char_ary before, after
   for i in 0..start.size
     s_e = start[i].to_i
     g_e = goal[i].to_i
-    if s_e == 1
-      if g_e == 1
-        enc_key << 0
-      else
-        enc_key << 1
-      end
-    else
-      if g_e == 1
-        enc_key << 1
-      else
-        enc_key << 0
-      end
-    end
+    enc_key << ( s_e ^ g_e )
   end
   return enc_key
 end
