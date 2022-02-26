@@ -11,7 +11,6 @@ check web site by lynx.
 I see following message in this page.(only this message exist in this).
 You can find the password for the next level on this page, but rightclicking has been blocked!
 
-I chek
 I check source of this page.
 `lynx --source http://natas2:ZluruAthQk7Q2MqmDeTiUij2ZvWy2mBi@natas2.natas.labs.overthewire.org`
 
